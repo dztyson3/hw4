@@ -1,3 +1,6 @@
+// NOTE - Had sent a note via Slack, but having a lot of trouble getting to show up on the page. Starting in line 32, it will gray out the HTML code. I've looked at the class notes and some different forums but could not figure out. Appreciate any guidane (and leniency!) you can provide1
+
+
 window.addEventListener('DOMContentLoaded', async function() {
   let response = await fetch('https://kiei451.com/api/rides.json')
   let json = await response.json()
